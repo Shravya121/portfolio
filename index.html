@@ -161,12 +161,16 @@
     <span>NLP</span><span class="dot">✦</span><span>XGBoost</span><span class="dot">✦</span>
     <span>Flask</span><span class="dot">✦</span><span>LangChain</span><span class="dot">✦</span>
     <span>n8n</span><span class="dot">✦</span><span>RAG</span><span class="dot">✦</span>
+    <span>Next.js</span><span class="dot">✦</span><span>FastAPI</span><span class="dot">✦</span>
+    <span>MongoDB</span><span class="dot">✦</span><span>ChromaDB</span><span class="dot">✦</span>
     <span>PySpark</span><span class="dot">✦</span><span>Scikit-learn</span><span class="dot">✦</span>
     <span>FAISS</span><span class="dot">✦</span><span>SQL</span><span class="dot">✦</span>
     <span>Python</span><span class="dot">✦</span><span>TensorFlow</span><span class="dot">✦</span>
     <span>NLP</span><span class="dot">✦</span><span>XGBoost</span><span class="dot">✦</span>
     <span>Flask</span><span class="dot">✦</span><span>LangChain</span><span class="dot">✦</span>
     <span>n8n</span><span class="dot">✦</span><span>RAG</span><span class="dot">✦</span>
+    <span>Next.js</span><span class="dot">✦</span><span>FastAPI</span><span class="dot">✦</span>
+    <span>MongoDB</span><span class="dot">✦</span><span>ChromaDB</span><span class="dot">✦</span>
     <span>PySpark</span><span class="dot">✦</span><span>Scikit-learn</span><span class="dot">✦</span>
     <span>FAISS</span><span class="dot">✦</span><span>SQL</span><span class="dot">✦</span>
   </div>
@@ -178,13 +182,65 @@
       <div class="sec-label">// 01</div>
       <h2 class="sec-title">Selected<br/>Work</h2>
     </div>
-    <span class="sec-count">04 projects</span>
+    <span class="sec-count">06 projects</span>
   </div>
   <div class="p-grid">
 
+    <!-- Second Brain -->
     <div class="p-card wide">
       <div class="p-arrow">↗</div>
-      <div class="p-num">// Project 01 <span class="badge">ML / NLP</span></div>
+      <div class="p-num">// Project 01 <span class="badge">Full Stack · AI / RAG</span></div>
+      <h3 class="p-name">Second Brain — AI Knowledge Base</h3>
+      <p class="p-desc">
+        Built a full-stack AI-powered personal knowledge base. Tired of messaging myself on WhatsApp to save things and scrolling endlessly to find them later — I built a proper solution. Save notes, articles, links, and ideas, then <strong>ask questions in plain English</strong>. The AI answers using only your own saved knowledge via a <span class="hl">RAG pipeline</span> built from scratch. Features a knowledge graph that visually maps connections between ideas, Notion bidirectional sync, a browser extension to save anything with one click, and <strong>multi-user Google login</strong> — each user gets their own private brain.
+      </p>
+      <div class="p-tags">
+        <span class="tag">Next.js 14</span><span class="tag">TypeScript</span><span class="tag">FastAPI</span>
+        <span class="tag">LangChain</span><span class="tag">Groq</span><span class="tag">ChromaDB</span>
+        <span class="tag">MongoDB Atlas</span><span class="tag">Clerk OAuth</span><span class="tag">D3.js</span>
+        <span class="tag">Vercel</span><span class="tag">Railway</span>
+      </div>
+      <div class="p-meta">
+        <div class="m-item"><span class="m-label">AI Model</span><span class="m-val hl">LLaMA 3.3 · Groq</span></div>
+        <div class="m-item"><span class="m-label">Pipeline</span><span class="m-val">RAG from Scratch</span></div>
+        <div class="m-item"><span class="m-label">Auth</span><span class="m-val">Google OAuth</span></div>
+        <div class="m-item"><span class="m-label">Status</span><span class="m-val hl">Live ↗</span></div>
+      </div>
+      <div class="p-links">
+        <a href="https://second-brain-beryl-omega.vercel.app" target="_blank" class="p-link primary">Live Demo ↗</a>
+        <a href="https://github.com/Shravya121/second-brain" target="_blank" class="p-link">GitHub ↗</a>
+      </div>
+    </div>
+
+    <!-- F1 Bot — UPDATED with Railway + correct GitHub -->
+    <div class="p-card wide">
+      <div class="p-arrow">↗</div>
+      <div class="p-num">// Project 02 <span class="badge">AI · RAG · ChatBot</span></div>
+      <h3 class="p-name">F1 Race Intelligence Bot</h3>
+      <p class="p-desc">
+        Built an AI-powered Formula 1 chatbot that answers questions about race history, driver stats, team performance, and lap records using a <strong>RAG pipeline</strong>. Ingested F1 data into <strong>ChromaDB</strong> as vector embeddings, enabling semantic search over decades of race data. Ask anything — "Who had the fastest lap at Monaco 2023?" or "How has Red Bull performed in wet conditions?" — and get accurate, sourced answers powered by <span class="hl">Groq + LangChain</span>. Deployed on Railway with a clean FastAPI backend.
+      </p>
+      <div class="p-tags">
+        <span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">LangChain</span>
+        <span class="tag">ChromaDB</span><span class="tag">Groq</span><span class="tag">RAG</span>
+        <span class="tag">Sentence Transformers</span><span class="tag">Railway</span>
+      </div>
+      <div class="p-meta">
+        <div class="m-item"><span class="m-label">Domain</span><span class="m-val hl">Formula 1</span></div>
+        <div class="m-item"><span class="m-label">Pipeline</span><span class="m-val">RAG + Vector Search</span></div>
+        <div class="m-item"><span class="m-label">Backend</span><span class="m-val">FastAPI · Railway</span></div>
+        <div class="m-item"><span class="m-label">LLM</span><span class="m-val hl">Groq · LLaMA</span></div>
+      </div>
+      <div class="p-links">
+        <a href="https://f1aichatbot-production.up.railway.app/" target="_blank" class="p-link primary">Live Demo ↗</a>
+        <a href="https://github.com/Shravya121/f1.ai.chatbot" target="_blank" class="p-link">GitHub ↗</a>
+      </div>
+    </div>
+
+    <!-- Mental Health -->
+    <div class="p-card wide">
+      <div class="p-arrow">↗</div>
+      <div class="p-num">// Project 03 <span class="badge">ML / NLP</span></div>
       <h3 class="p-name">Mental Health Text Classifier</h3>
       <p class="p-desc">
         Built and deployed a machine-learning NLP classifier to categorise Reddit posts into mental-health stress categories — <strong>DV, Financial, Loneliness, Relationship,</strong> and <strong>Work Stress</strong>. Implemented text preprocessing (stopword removal, lemmatisation), TF-IDF + n-grams + Bag-of-Words for feature engineering, and an <strong>XGBoost</strong> classifier — achieving <span class="hl">75% accuracy</span>. Deployed via Flask on Render for real-time predictions. Tackled class imbalance using cross-validation and hyperparameter tuning.
@@ -208,7 +264,7 @@
 
     <div class="p-card">
       <div class="p-arrow">↗</div>
-      <div class="p-num">// Project 02 <span class="badge">Deep Learning</span></div>
+      <div class="p-num">// Project 04 <span class="badge">Deep Learning</span></div>
       <h3 class="p-name">Indian Borage Leaf Disease Detection</h3>
       <p class="p-desc">
         Built a deep learning system to detect Indian Borage leaf diseases from images using <strong>transfer learning</strong>. Compared three CNN architectures — VGG16, ResNet50, EfficientNetB0 — to identify the most accurate model. Enabled early and accurate crop disease identification to reduce agricultural losses and improve yield. <span class="hl">Published on IEEE Xplore.</span>
@@ -229,7 +285,7 @@
 
     <div class="p-card">
       <div class="p-arrow">↗</div>
-      <div class="p-num">// Project 03 <span class="badge">Big Data</span></div>
+      <div class="p-num">// Project 05 <span class="badge">Big Data</span></div>
       <h3 class="p-name">Clickstream Analysis — PySpark & HDFS</h3>
       <p class="p-desc">
         Developed a scalable big-data pipeline to analyse large-scale website navigation behaviour. Extracted user engagement patterns, drop-off points, and session flows using <strong>PySpark</strong> on a simulated <strong>Hadoop (HDFS)</strong> environment to support data-driven optimisation for digital platforms.
@@ -250,10 +306,10 @@
 
     <div class="p-card">
       <div class="p-arrow">↗</div>
-      <div class="p-num">// Project 04 <span class="badge">Agentic AI / LLM</span></div>
+      <div class="p-num">// Project 06 <span class="badge">Agentic AI / LLM</span></div>
       <h3 class="p-name">Agentic AI Task Automation System</h3>
       <p class="p-desc">
-        Developed an agent-based AI system using <strong>LangChain</strong> + large language models to autonomously plan and execute multi-step tasks — information retrieval, summarisation, and reasoning. Backed by <strong>FAISS / Chroma</strong> vector databases for long-term contextual memory via Retrieval-Augmented Generation (RAG). Also explored <span class="hl">n8n</span> — a low-code workflow platform — for visually chaining LLM nodes into fully automated pipelines without writing traditional code.
+        Developed an agent-based AI system using <strong>LangChain</strong> + large language models to autonomously plan and execute multi-step tasks — information retrieval, summarisation, and reasoning. Backed by <strong>FAISS / Chroma</strong> vector databases for long-term contextual memory via RAG. Also explored <span class="hl">n8n</span> for visually chaining LLM nodes into fully automated pipelines.
       </p>
       <div class="p-tags">
         <span class="tag">Python</span><span class="tag">LangChain</span><span class="tag">LLMs</span>
@@ -276,15 +332,18 @@
   <div class="sec-label">// 02</div>
   <h2 class="sec-title">Skills &<br/>Tech Stack</h2>
   <div class="sk-grid">
-    <div class="sk-cat"><div class="sk-title">Programming</div><div class="sk-pills"><span class="pill">Python</span><span class="pill">SQL</span></div></div>
+    <div class="sk-cat"><div class="sk-title">Programming</div><div class="sk-pills"><span class="pill">Python</span><span class="pill">SQL</span><span class="pill">TypeScript</span></div></div>
+    <div class="sk-cat"><div class="sk-title">Frontend</div><div class="sk-pills"><span class="pill">Next.js</span><span class="pill">React</span><span class="pill">Tailwind CSS</span></div></div>
+    <div class="sk-cat"><div class="sk-title">Backend</div><div class="sk-pills"><span class="pill">FastAPI</span><span class="pill">Flask</span><span class="pill">REST APIs</span></div></div>
     <div class="sk-cat"><div class="sk-title">Data Analysis</div><div class="sk-pills"><span class="pill">Data Cleaning</span><span class="pill">EDA</span><span class="pill">Feature Engineering</span></div></div>
     <div class="sk-cat"><div class="sk-title">Machine Learning</div><div class="sk-pills"><span class="pill">scikit-learn</span><span class="pill">XGBoost</span></div></div>
     <div class="sk-cat"><div class="sk-title">Deep Learning</div><div class="sk-pills"><span class="pill">TensorFlow</span><span class="pill">CNNs</span><span class="pill">Transfer Learning</span></div></div>
     <div class="sk-cat"><div class="sk-title">NLP & LLMs</div><div class="sk-pills"><span class="pill">TF-IDF</span><span class="pill">Tokenization</span><span class="pill">Embeddings</span><span class="pill">RAG</span></div></div>
-    <div class="sk-cat"><div class="sk-title">Agentic AI & Automation</div><div class="sk-pills"><span class="pill">LangChain</span><span class="pill">n8n</span><span class="pill">FAISS</span><span class="pill">Chroma</span><span class="pill">Prompt Engineering</span></div></div>
-    <div class="sk-cat"><div class="sk-title">Visualization</div><div class="sk-pills"><span class="pill">Matplotlib</span><span class="pill">Power BI</span><span class="pill">Excel</span></div></div>
-    <div class="sk-cat"><div class="sk-title">Big Data & Tools</div><div class="sk-pills"><span class="pill">PySpark</span><span class="pill">HDFS</span><span class="pill">Flask</span><span class="pill">Git</span><span class="pill">GitHub</span></div></div>
-    <div class="sk-cat"><div class="sk-title">Soft Skills</div><div class="sk-pills"><span class="pill">Problem Solving</span><span class="pill">Communication</span><span class="pill">Attention to Detail</span></div></div>
+    <div class="sk-cat"><div class="sk-title">Agentic AI & Automation</div><div class="sk-pills"><span class="pill">LangChain</span><span class="pill">n8n</span><span class="pill">FAISS</span><span class="pill">Chroma</span><span class="pill">ChromaDB</span><span class="pill">Groq</span></div></div>
+    <div class="sk-cat"><div class="sk-title">Databases</div><div class="sk-pills"><span class="pill">MongoDB Atlas</span><span class="pill">ChromaDB</span><span class="pill">SQL</span></div></div>
+    <div class="sk-cat"><div class="sk-title">Deployment</div><div class="sk-pills"><span class="pill">Vercel</span><span class="pill">Railway</span><span class="pill">Render</span><span class="pill">Git</span></div></div>
+    <div class="sk-cat"><div class="sk-title">Visualization</div><div class="sk-pills"><span class="pill">Matplotlib</span><span class="pill">D3.js</span><span class="pill">Power BI</span><span class="pill">Excel</span></div></div>
+    <div class="sk-cat"><div class="sk-title">Big Data & Tools</div><div class="sk-pills"><span class="pill">PySpark</span><span class="pill">HDFS</span><span class="pill">GitHub</span></div></div>
   </div>
 </section>
 
@@ -310,6 +369,10 @@
     <div class="ach-card">
       <h3 class="ach-title">📄 IEEE Xplore Publication</h3>
       <p class="ach-desc">Research paper on Indian Borage Leaf Disease Detection using transfer learning (VGG16, ResNet50, EfficientNetB0) published on IEEE Xplore — a peer-reviewed international publication in deep learning and agricultural AI.</p>
+    </div>
+    <div class="ach-card">
+      <h3 class="ach-title">🧠 Second Brain — Live AI Product</h3>
+      <p class="ach-desc">Built and deployed a full-stack AI SaaS product with RAG pipeline, multi-user auth, Notion sync, and a browser extension. Live at second-brain-beryl-omega.vercel.app — covers more ground than most internship projects.</p>
     </div>
     <div class="ach-card">
       <h3 class="ach-title">🏆 INIT Hackathon — PES University</h3>
